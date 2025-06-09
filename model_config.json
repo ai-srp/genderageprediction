@@ -1,0 +1,313 @@
+{
+    "models": [
+        {
+            "version": 1,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_125703.h5",
+            "created_at": "2025-06-08T12:57:03.931848",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 64,
+                "learning_rate": 0.001,
+                "img_size": 16
+            },
+            "training_results": {
+                "test_loss": 522.014404296875,
+                "age_loss": 521.3209228515625,
+                "gender_loss": 0.6931432485580444,
+                "age_mae": 19.130247689627268,
+                "age_mse": 521.3211456861837,
+                "age_rmse": 22.832458161270846,
+                "age_r2": -0.20835803851121848,
+                "gender_accuracy": 0.5104895104895105,
+                "gender_confusion_matrix": [
+                    [
+                        5840,
+                        0,
+                        0
+                    ],
+                    [
+                        5599,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 2,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_133150.h5",
+            "created_at": "2025-06-08T13:31:50.046218",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 2,
+                "batch_size": 32,
+                "learning_rate": 0.001,
+                "img_size": 64
+            },
+            "training_results": {
+                "test_loss": 492.2237854003906,
+                "age_loss": 491.5307312011719,
+                "gender_loss": 0.6929457187652588,
+                "age_mae": 18.534830561551182,
+                "age_mse": 491.5306472415247,
+                "age_rmse": 22.17049046010315,
+                "age_r2": -0.13930734190178362,
+                "gender_accuracy": 0.5104895104895105,
+                "gender_confusion_matrix": [
+                    [
+                        5840,
+                        0,
+                        0
+                    ],
+                    [
+                        5599,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 3,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_134304.h5",
+            "created_at": "2025-06-08T13:43:04.424206",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 64,
+                "learning_rate": 0.001,
+                "img_size": 96
+            },
+            "training_results": {
+                "test_loss": 504.16485595703125,
+                "age_loss": 503.4714660644531,
+                "gender_loss": 0.6932114958763123,
+                "age_mae": 18.61817709849431,
+                "age_mse": 503.4716500483778,
+                "age_rmse": 22.43817394638828,
+                "age_r2": -0.16698511183101594,
+                "gender_accuracy": 0.4894230769230769,
+                "gender_confusion_matrix": [
+                    [
+                        0,
+                        5840,
+                        0
+                    ],
+                    [
+                        0,
+                        5599,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 4,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_135128.h5",
+            "created_at": "2025-06-08T13:51:28.911305",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 128,
+                "learning_rate": 0.001,
+                "img_size": 16
+            },
+            "training_results": {
+                "test_loss": 708.9630737304688,
+                "age_loss": 708.2701416015625,
+                "gender_loss": 0.692945659160614,
+                "age_mae": 22.61243770472653,
+                "age_mse": 708.2701183811445,
+                "age_rmse": 26.613344742462274,
+                "age_r2": -0.6416826711616548,
+                "gender_accuracy": 0.5104895104895105,
+                "gender_confusion_matrix": [
+                    [
+                        5840,
+                        0,
+                        0
+                    ],
+                    [
+                        5599,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 5,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_141147.h5",
+            "created_at": "2025-06-08T14:11:47.391362",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 128,
+                "learning_rate": 0.001,
+                "img_size": 16
+            },
+            "training_results": {
+                "test_loss": 771.3233642578125,
+                "age_loss": 770.6300659179688,
+                "gender_loss": 0.6931630969047546,
+                "age_mae": 23.629079423084125,
+                "age_mse": 770.6301238732798,
+                "age_rmse": 27.760225573169965,
+                "age_r2": -0.7862254631461283,
+                "gender_accuracy": 0.4923951048951049,
+                "gender_confusion_matrix": [
+                    [
+                        190,
+                        5650,
+                        0
+                    ],
+                    [
+                        156,
+                        5443,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 6,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_175801.h5",
+            "created_at": "2025-06-08T17:58:01.796055",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 128,
+                "learning_rate": 0.001,
+                "img_size": 16
+            },
+            "training_results": {
+                "test_loss": 776.2061157226562,
+                "age_loss": 775.51318359375,
+                "gender_loss": 0.6929451823234558,
+                "age_mae": 23.812431589206614,
+                "age_mse": 775.5133299390593,
+                "age_rmse": 27.84803996584067,
+                "age_r2": -0.797544131786597,
+                "gender_accuracy": 0.5104895104895105,
+                "gender_confusion_matrix": [
+                    [
+                        5840,
+                        0,
+                        0
+                    ],
+                    [
+                        5599,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        },
+        {
+            "version": 7,
+            "model_path": "models\\age_gender_model_simple_cnn_20250608_195036.h5",
+            "created_at": "2025-06-08T19:50:36.282109",
+            "parameters": {
+                "architecture": "simple_cnn",
+                "epochs": 1,
+                "batch_size": 128,
+                "learning_rate": 0.001,
+                "img_size": 16
+            },
+            "training_results": {
+                "test_loss": 736.522705078125,
+                "age_loss": 735.8295288085938,
+                "gender_loss": 0.6931152939796448,
+                "age_mae": 23.06173503949092,
+                "age_mse": 735.8296430122227,
+                "age_rmse": 27.126180029857185,
+                "age_r2": -0.7055622459709181,
+                "gender_accuracy": 0.5104895104895105,
+                "gender_confusion_matrix": [
+                    [
+                        5840,
+                        0,
+                        0
+                    ],
+                    [
+                        5599,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        0,
+                        0
+                    ]
+                ],
+                "predictions": {
+                    "age_predictions_count": 11440,
+                    "gender_predictions_count": 11440
+                }
+            },
+            "status": "active"
+        }
+    ],
+    "current_version": 7
+}
